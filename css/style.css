@@ -1,0 +1,211 @@
+html, body{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+.home{
+    background: linear-gradient(130deg,#231a6f,#0f054c);
+    min-height: 115vh;
+    background-size:cover ;
+    /* height: fit-content; */
+}
+nav button svg{
+    color: white;
+    outline: none;
+    outline-color: transparent;
+    box-shadow: none;
+    font-size: 40px;
+}
+nav .nav-link{
+    color: white;
+    text-transform: uppercase;
+}
+nav .nav-link:hover,nav .navbar-brand:hover, .nav-item .active{
+    color: #00bbeb;
+} 
+nav .nav-item{
+    padding: .7rem .5rem;
+    font-family:"Open Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+nav .navbar-brand{
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+}
+.home .row .text{
+    color: white;
+    margin-top: 10rem;
+}
+ .row .text h1{
+    font-size: 48px;
+    font-weight: 700;
+}
+.row .text p{
+    font-size: 14px;
+}
+.row .text .btn-box{
+    background-color: #00bbf0 ;
+    display: inline-block;
+    width: fit-content;
+    padding: 10px 40px;
+    text-decoration: none;
+    color: white;
+    margin-top: 20px;
+}
+.row .image img{
+    animation: up-and-down 5s linear infinite;
+    position: relative;
+    width: auto;
+}
+@keyframes up-and-down{
+    0% ,100%
+    {
+        top: 0;
+    }
+    50%{
+        top: -50px;
+    }
+}
+
+/* strat services  */
+.main-title{
+    font-weight: 700;
+}
+ .main-title span{
+    color: #00bbeb;
+}
+.services .box{
+    background-color: #eee;
+    padding: 0 20px 20px 20px;
+    margin-bottom: 20px;
+
+}
+.services .row img{
+    width: 120px;
+    padding:20px;
+   
+}
+.services .box .text{
+    color: black;
+}
+.services .box .text a{
+    text-decoration: none;
+    color: black;
+}
+.services .box .text a:hover{
+    color: #00bbeb;
+}
+ .btn{
+    width: fit-content;
+    margin: auto;
+    padding: 10px 40px;
+    margin-top: 20px;
+    background-color: #00bbeb;
+    color: white;
+    box-shadow: none;
+}
+/* end services  */
+
+/* strat about  */
+
+.about{
+  background-color: #00204a;
+  color: white;
+
+  max-height: fit-content;
+}
+
+/* end about  */
+
+/* start features  */
+
+.features .box img{
+   border: 5px solid #0f054c;
+   border-radius: 50%;
+   padding: 15px;
+}
+.features .btn{
+    margin: auto;
+}
+/* end features  */
+
+/* strat team section / */
+.team{
+    background-color: #00204a;
+}
+.team .box{
+    background-color: #00285c;
+    margin-bottom: 30px;
+}
+.team .box img{
+    border-radius: 50%;
+    border: 5px solid white ;
+}
+.team .box h5{
+    color: #00bbeb;
+}
+.team .box ul svg{
+    font-size: 20px;
+    color: white;
+}
+.team .box ul svg:hover{
+    cursor: pointer;
+    color: #00bbeb;
+}
+/* end team section / */
+
+/* strat opinions section  */
+
+.opinions .box{
+    background-color: #fff;
+    box-shadow: 0 0 15px 0 rgba(0,0,0,.15);
+    position: relative;
+}
+.opinions img{
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+}
+
+
+/* end opinions section  */
+
+/* strat footer  */
+
+footer{
+    background-color: #00204a;
+    color: white;
+}
+footer div{
+    padding: 5px ;
+   
+}
+footer ul svg{
+    font-size: 20px;
+}
+@media(max-width:996px){
+    footer .icons{
+        justify-content: center;
+    }
+}
+footer .links li{
+    margin-top: 10px;
+}
+footer input[type="email"]{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid white;
+}
+footer input[type="email"]::placeholder{
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    
+}
+footer p span{
+    color: #00bbeb;
+    font-weight: bold;
+}
+/* end footer  */

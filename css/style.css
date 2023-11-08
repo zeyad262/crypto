@@ -79,7 +79,10 @@ nav .navbar-brand{
     background-color: #eee;
     padding: 0 20px 20px 20px;
     margin-bottom: 20px;
-
+}
+.services .row .box:hover, .services .row .box:hover  .text , .services .row .box:hover  .text a{
+    color: white;
+    background-color: #00bbeb;
 }
 .services .row img{
     width: 120px;
